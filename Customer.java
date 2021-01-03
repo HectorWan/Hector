@@ -12,18 +12,6 @@ public class Customer extends Admin{
 			this.status = status;
 		}
 		
-		public String getCustomerName(){
-			return name;
-		}
-		
-		public String getCustomerPhonenum(){
-			return phoneNum;
-		}
-		
-		public String getCustomerStatus(){
-			return status;
-		}
-		
 		public void setCustomerName(String name){
 			this.name = name;
 		}
@@ -34,6 +22,18 @@ public class Customer extends Admin{
 		
 		public void setCustomerStatus(String status){
 			this.status = status;
+		}
+	
+		public String getCustomerName(){
+			return this.name;
+		}
+		
+		public String getCustomerPhonenum(){
+			return this.phoneNum;
+		}
+		
+		public String getCustomerStatus(){
+			return this.status;
 		}
 		
 		public String toString(){
