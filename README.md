@@ -44,25 +44,25 @@ i. The shop as Case.
 ii. All close contacts as Close.
 
 The histories and records shall be displayed in the following format during execution:
-_____________________-
+_____________________
 Master visit history:
 
 No Date Time Customer Shop
 
 1 2020-12-01 15:10:15 Ali Tesco
-_____________________________-
+_____________________________
 History viewed by a customer:
 
 No Date Time Shop
 
 1 2020-12-01 15:10:15 Tesco
-_________________________________-
+_________________________________
 List of customers viewed by admin:
 
 No Name Phone Status
 
 1 Ali 0121112222 Normal
-_______________________________-
+_______________________________
 List of shops viewed by admin:
 
 No Name Phone Manager Status
