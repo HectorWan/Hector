@@ -53,7 +53,7 @@ No  Date       Time     Customer Shop
 _____________________________
 History viewed by a customer:
 
-No Date      Time     Shop
+No Date       Time     Shop
 
 1  2020-12-01 15:10:15 Tesco
 _________________________________
