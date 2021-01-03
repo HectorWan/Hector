@@ -1,7 +1,7 @@
 # Hector
 This is my code, just practicing feel free to comment. Learning to improve on Java skills :). 
 
-TASKS
+TASKS:
 You are developing a simplified contact tracing system for COVID-19. The three (3) main roles in the
 system are listed below:
 1) Customer – a customer has name, phone, and status. A customer can:
