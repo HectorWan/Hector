@@ -1,7 +1,7 @@
 public class Customer extends Admin{
-		String name;
-		String phoneNum;
-		String status;
+		private String name;
+		private String phoneNum;
+		private String status;
 		
 		public Customer(){
 		}
