@@ -1,8 +1,8 @@
 public class Shop extends Admin{
-	String name;
-	String phoneNum;
-	String status;
-	String manager;
+	private String name;
+	private String phoneNum;
+	private String status;
+	private String manager;
 	
 	public class Shop(){
 	}
