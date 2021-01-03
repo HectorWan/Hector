@@ -47,27 +47,27 @@ The histories and records shall be displayed in the following format during exec
 _____________________
 Master visit history:
 
-No Date Time Customer Shop
+No  Date       Time     Customer Shop
 
-1 2020-12-01 15:10:15 Ali Tesco
+1   2020-12-01 15:10:15 Ali      Tesco
 _____________________________
 History viewed by a customer:
 
-No Date Time Shop
+No Date      Time     Shop
 
-1 2020-12-01 15:10:15 Tesco
+1  2020-12-01 15:10:15 Tesco
 _________________________________
 List of customers viewed by admin:
 
-No Name Phone Status
+No Name Phone      Status
 
-1 Ali 0121112222 Normal
+1  Ali  0121112222 Normal
 _______________________________
 List of shops viewed by admin:
+ 
+No Name  Phone      Manager Status
 
-No Name Phone Manager Status
-
-1 Tesco 0388889999 Siti Normal
+1  Tesco 0388889999 Siti    Normal
 
 Design your classes, data fields, and methods wisely. You may add classes or data fields to support
 inheritance, association, aggregation, composition, or significant features. Do not over design (adding
