@@ -44,24 +44,35 @@ i. The shop as Case.
 ii. All close contacts as Close.
 
 The histories and records shall be displayed in the following format during execution:
+
 Master visit history:
+
 No Date Time Customer Shop
+
 1 2020-12-01 15:10:15 Ali Tesco
+
 History viewed by a customer:
+
 No Date Time Shop
+
 1 2020-12-01 15:10:15 Tesco
+
 List of customers viewed by admin:
+
 No Name Phone Status
+
 1 Ali 0121112222 Normal
+
 List of shops viewed by admin:
+
 No Name Phone Manager Status
+
 1 Tesco 0388889999 Siti Normal
 
 Design your classes, data fields, and methods wisely. You may add classes or data fields to support
 inheritance, association, aggregation, composition, or significant features. Do not over design (adding
 classes, data fields, or methods that do not help solving the assignment, e.g. full address).
-To make testing easier and save time during interview, your program shall have the following
-features:
+To make testing easier and save time during interview, your program shall have the following features:
 i. Never clear screen.
 ii. Pre-load with 5 customers (when the program starts).
 iii. Pre-load with 4 shops.
