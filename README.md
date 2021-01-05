@@ -73,8 +73,12 @@ Design your classes, data fields, and methods wisely. You may add classes or dat
 inheritance, association, aggregation, composition, or significant features. Do not over design (adding
 classes, data fields, or methods that do not help solving the assignment, e.g. full address).
 To make testing easier and save time during interview, your program shall have the following features:
+
 i. Never clear screen.
+
 ii. Pre-load with 5 customers (when the program starts).
+
 iii. Pre-load with 4 shops.
+
 iv. Have a feature to add 30 random visits to the master visit history (random shops, random visitors, time ranging from yesterday until current system time). 
 Sort the master visit history by date and time.
