@@ -1,3 +1,5 @@
+/* This is the program initially look like for now will be updated also it compiles*/
+
 import java.util.Scanner;
 import java.beans.PropertyDescriptor;
 import java.util.*;
@@ -61,21 +63,25 @@ public class Tracing{
 									System.out.println("2.Walmart");
 									System.out.println("3.Target");
 									System.out.println("4.Tesco");
-									action3 = option.nextInt();
+									action1 = option.nextInt();
 									System.out.println("");
-									switch(action3){
+									switch(action1){
 										case 1:
-											System.out.println("Name      Phone      Manager  Status");
-											System.out.println("Dean Cafe 0377665612 Mr.Jason Normal");
+											System.out.println("Name\t     Phone      Manager  Status");
+											System.out.println("Dean Cafe\t 0377665612 Mr.Jason Normal");
+											break;
 										case 2:
-											System.out.println("Name    Phone      Manager Status");
-											System.out.println("Walmart 0322557890 Mr.Ng   Normal");
+											System.out.println("Name\t   Phone      Manager Status");
+											System.out.println("Walmart\t 0322557890 Mr.Ng   Normal");
+											break;
 										case 3:
-											System.out.println("Name   Phone      Manager    Status");
-											System.out.println("Target 0312568790 Ms.Rozanna Normal");
+											System.out.println("Name\t   Phone      Manager    Status");
+											System.out.println("Target\t 0312568790 Ms.Rozanna Normal");
+											break;
 										case 4:
-											System.out.println("Name  Phone      Manager  Status");
-											System.out.println("Tesco 0345678912 Mr.Smith Normal");
+											System.out.println("Name\t  Phone      Manager  Status");
+											System.out.println("Tesco\t 0345678912 Mr.Smith Normal");
+											break;
 										default:
 											System.out.println("Invalid input");
 											break;
@@ -97,6 +103,14 @@ public class Tracing{
 									System.out.println("");
 									switch(action2){
 										case 1:
+											System.out.println("Welcome to the Registration Menu");
+											System.out.println("Input your name, phone, and status");
+											option.nextLine();
+											customer = option.nextLine();
+											customerList.add(customer);
+											System.out.println("You have successfully registered");
+											break;
+										case 2:
 											System.out.println("Which shop would you like to go? (Input number to choose)");
 											System.out.println("1.Dean Cafe");
 											System.out.println("2.Walmart");
@@ -104,43 +118,51 @@ public class Tracing{
 											System.out.println("4.Tesco");
 											shop = option.nextInt();
 											System.out.flush();
-										switch(shop){
-											case 1:
-												for(int i=0;i<customerList.size();i++){
-												System.out.println(customerList.get(i));
-												}
-												break;
-											case 2:
-												for(int i=0;i<customerList.size();i++){
-												System.out.println(customerList.get(i));
-												}
-												break;
-											case 3:
-												for(int i=0;i<customerList.size();i++){
-												System.out.println(customerList.get(i));
-												}
-												break;
-											case 4:
-												for(int i=0;i<customerList.size();i++){
-												System.out.println(customerList.get(i));
-												}
+											switch(shop){
+												case 1:
+													System.out.println("Input your name, phone, and status");
+													option.nextLine();
+													customer = option.nextLine();
+													customerList.add(customer);
+													System.out.println("You have successfully registered");
+													break;
+												case 2:
+													System.out.println("Input your name, phone, and status");
+													option.nextLine();
+													customer = option.nextLine();
+													customerList.add(customer);
+													System.out.println("You have successfully registered");
+													break;
+												case 3:
+													System.out.println("Input your name, phone, and status");
+													option.nextLine();
+													customer = option.nextLine();
+													customerList.add(customer);
+													System.out.println("You have successfully registered");
+													break;
+												case 4:
+													System.out.println("Input your name, phone, and status");
+													option.nextLine();
+													customer = option.nextLine();
+													customerList.add(customer);
+													System.out.println("You have successfully registered");
+													break;
+												default:
+													System.out.println("Invalid input");
+													break;
+											}													
 											break;
-											default:
-												System.out.println("Invalid input");
-											break; 
-										}
-							break;
-							case 2:
-								if(historyList.isEmpty()){
-								System.out.println("No visit history available.");
-								}else{
-								System.out.println("View Visit History");
-								for(int i=0;i<historyList.size();i++)
-								System.out.println(historyList.get(i));
-								}
-								break;
-							default:System.out.println("Invalid input");
-							break;
+										case 3:
+											if(historyList.isEmpty()){
+											System.out.println("No visit history available.");
+											}else{
+											System.out.println("View Visit History");
+											for(int i=0;i<historyList.size();i++)
+											System.out.println(historyList.get(i));
+											}
+											break;
+										default:System.out.println("Invalid input");
+											break;
 									}
 							System.out.println("");
 							System.out.println("Perform another action? (Enter 1 if yes,any other number for no)");
@@ -158,15 +180,19 @@ public class Tracing{
 									case 1:
 										System.out.println("Name      Phone      Manager  Status");
 										System.out.println("Dean Cafe 0377665612 Mr.Jason Normal");
+										break;
 									case 2:
 										System.out.println("Name    Phone      Manager Status");
 										System.out.println("Walmart 0322557890 Mr.Ng   Normal");
+										break;
 									case 3:
 										System.out.println("Name   Phone      Manager    Status");
 										System.out.println("Target 0312568790 Ms.Rozanna Normal");
+										break;
 									case 4:
 										System.out.println("Name  Phone      Manager  Status");
 										System.out.println("Tesco 0345678912 Mr.Smith Normal");
+										break;
 									default:
 										System.out.println("Invalid input");
 										break;
